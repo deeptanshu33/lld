@@ -20,7 +20,7 @@ class IphoneObservableImpl(IStockObservable):
             observer.update()
     
     def getStockCount(self):
-        return self.stock_count
+        return self._stock_count
     
     
     def setStockCount(self, newStock):
