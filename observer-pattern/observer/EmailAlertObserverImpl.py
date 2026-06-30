@@ -1,7 +1,7 @@
 from observer.NotificationAlertObserver import INotificationAlertObserver
 from observable.StockObservable import IStockObservable
 
-class EmailAlertObservableImpl(INotificationAlertObserver):
+class EmailAlertObserverImpl(INotificationAlertObserver):
     email: str
     observable: IStockObservable
 
